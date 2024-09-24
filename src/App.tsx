@@ -2,16 +2,15 @@
 import './index.css';
 import Layout from './layout/Layout';
 
-function App() {
-
+export default function App() {
 
   return (
-    <>
-      <div className="bg-background">
-        <Layout />
-      </div>  
-    </>
-  )
+    <div className="bg-background">
+      <Layout />
+    </div> 
+     
+    
+  );
 }
 
-export default App
+
