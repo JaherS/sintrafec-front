@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-body{
+  background-color: black;
+}
+
+@font-face{
+  font-family: Geist-Bold;
+  src: url("/public/fonts/Geist-Bold.otf");
+}
+
+@font-face{
+  font-family: Geist-Light;
+  src: url("/public/fonts/Geist-Light.otf");
+}
+
+@font-face{
+  font-family: Geist-Medium;
+  src: url("/public/fonts/Geist-Medium.otf");
+}
+
+@font-face{
+  font-family: Manrope-Bold;
+  src: url("/public/fonts/Manrope-Bold.ttf");
+}
+
+
