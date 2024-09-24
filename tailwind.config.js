@@ -7,10 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        aeonikLight: ["Aeonik-Light"],
         geistMedium: ["Geist-Medium)"],
         geistBold: ["Geist-Bold)"],
         geistLight: ["Geist-Light)"],
-        manropeBold: ["Manrope-Bold"]
+        manropeBold: ["Manrope-Bold"],
+        inter: ['Inter', 'sans-serif']
       },
       letterSpacing: {
         titulo: '-0.085em',

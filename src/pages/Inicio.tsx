@@ -1,7 +1,20 @@
-import Item from "../components/Inicio/Item"
+import Item from "../components/Inicio/Item";
 
-function Inicio() {
 
+const Inicio = () => {
+
+  const servicios = [
+    {
+      textoItem: "Sistema POS",
+      imagenItem: "/img/pos.png", // Ruta a la imagen
+      direccionarItem: "/sistema"
+    },
+    {
+      textoItem: "Gestión",
+      imagenItem: "/img/pos.png", // Ruta a la imagen
+      direccionarItem: "/gestion"
+    }
+  ];
 
     return (
       <>
@@ -9,8 +22,15 @@ function Inicio() {
           <div className="py-5 px-5 flex flex-col items-center">
             <h1 className="font-manropeBold tracking-texto text-3xl md:text-4xl">Servicios</h1>
           </div> 
-          <div className="px-5">
-            <Item />
+          <div className="px-5 py-5 grid grid-cols-1 md:grid-cols-2 gap-5">
+            {servicios.map((servicio, index) => (
+              <Item
+              key={index}
+              textoItem={servicio.textoItem}
+              imagenItem={servicio.imagenItem}
+              direccionarItem={servicio.direccionarItem}  // Pasar la URL al componente
+              />
+            ))}
           </div> 
             
         </section>
@@ -18,4 +38,4 @@ function Inicio() {
     )
   }
   
-  export default Inicio
+  export default Inicio;

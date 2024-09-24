@@ -19,7 +19,7 @@ export function Header() {
     return (
     <header>
         <div className=" flex items-center justify-center bg-[#F5F5F7]">
-          <div className="text-2xl text-[#323232] md:max-w-screen-lg md:mx-auto w-full py-2 px-5 font-geistLight tracking-texto">
+          <div className="text-2xl text-[#323232] md:max-w-screen-lg md:mx-auto w-full py-2 px-5 font-inter  tracking-texto">
             <div className="container mx-auto">
               <div className="flex items-center justify-between">
                 <div>

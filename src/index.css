@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .bg-body{
   background-color: black;
@@ -8,22 +9,27 @@
 
 @font-face{
   font-family: Geist-Bold;
-  src: url("/public/fonts/Geist-Bold.otf");
+  src: url("/fonts/Geist-Bold.ttf");
 }
 
 @font-face{
   font-family: Geist-Light;
-  src: url("/public/fonts/Geist-Light.otf");
+  src: url("/fonts/Geist-Light.ttf");
 }
 
 @font-face{
   font-family: Geist-Medium;
-  src: url("/public/fonts/Geist-Medium.otf");
+  src: url("/fonts/Geist-Medium.ttf");
 }
 
 @font-face{
   font-family: Manrope-Bold;
-  src: url("/public/fonts/Manrope-Bold.ttf");
+  src: url("/fonts/Manrope-Bold.ttf");
+}
+
+@font-face{
+  font-family: Aeonik-Light;
+  src: url("/fonts/AeonikTRIAL-Light.otf");
 }
 
 
